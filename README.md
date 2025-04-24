@@ -22,6 +22,8 @@ cd booking
 
 ```bash
 npm install
+```
+
 
 **./src:**
 
