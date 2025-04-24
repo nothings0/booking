@@ -1,8 +1,6 @@
-# React + TypeScript + Vite
+# Booking
 
 ## Installation
-
-Hướng dẫn cài đặt dự án ở máy local:
 
 1. Clone the repository:
 
@@ -24,6 +22,7 @@ cd booking
 npm install
 ```
 
+## Folder Structure
 
 **./src:**
 
