@@ -1,3 +1,4 @@
 import MainLayout from "./Main";
+import UserLayout from "./User";
 
-export { MainLayout, DashboardLayout, ExamLayout, UserLayout };
+export { MainLayout, UserLayout };

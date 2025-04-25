@@ -1,5 +1,5 @@
 import { MainLayout } from "@/layouts";
-import { Landing } from "@/pages";
+import {HomePage} from "@/pages";
 import { RouteObject } from "react-router-dom";
 
 const MainRouter: RouteObject = {
@@ -8,7 +8,7 @@ const MainRouter: RouteObject = {
   children: [
     {
       path: "/",
-      element: <Landing />,
+      element: <HomePage />,
     },
   ],
 };
