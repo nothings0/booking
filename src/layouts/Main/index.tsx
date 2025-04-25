@@ -6,7 +6,9 @@ const Main : React.FC = () => {
   return (
     <>
       <Header />
+      <div className="main">
         <Outlet />
+      </div>
       <Footer />
     </>
   );

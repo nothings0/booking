@@ -7,7 +7,7 @@ const router: RouteObject[] = [
   UserRouter,
   {
     path: "*",
-    element: <Navigate to="/" replace />,
+    element: <Navigate to="/404" replace />,
   },
 ];
 

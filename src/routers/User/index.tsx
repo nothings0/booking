@@ -5,14 +5,14 @@ import { RouteObject } from "react-router-dom";
 
 const UserRouter: RouteObject = {
   element: <PrivateRoute />,
-  path: "/user",
+  path: "user",
   children: [
     {
       path: "",
       element: <UserLayout />,
       children: [
         {
-          path: "/",
+          path: "",
           element: <UserPage />
         }
       ]
